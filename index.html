@@ -39,7 +39,29 @@
 
 <body class="font-lexend">
     <header class="sticky left-0 right-0 top-0">
-        
+        <nav>
+            <!-- Navbar Section -->
+            <section class="flex justify-between bg-background px-6 py-6 lg:px-20">
+                <button id="blog-btn" class="btn bg-primary text-dark px-8">Blog</button>
+                <div class="flex items-center gap-3">
+                    <img class="w-12 h-12" src="./assets/logo.png" alt="">
+                    <h1 class="text-dark text-xl font-semibold tex-dark hidden lg:block">Donate Bangladesh</h1>
+                </div>
+                <div class="flex gap-3 items-center">
+                    <img class="w-7 h-7" src="./assets/coin.png" alt="">
+                    <div class="flex gap-x-1">
+                        <p id="balance" class="text-gray-600">5500</p>
+                        <span class="text-gray-600">BDT</span>
+                    </div>
+                </div>
+
+            </section>
+            <!-- Button -->
+            <div class="flex justify-center gap-4 py-5 bg-white drop-shadow-sm">
+                <button id="donation-btn" class="bg-primary btn">Donation</button>
+                <button id="history-btn" class="btn bg-transparent border-2">History</button>
+            </div>
+        </nav>
     </header>
     <main>
 
